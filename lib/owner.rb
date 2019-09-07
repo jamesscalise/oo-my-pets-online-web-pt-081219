@@ -11,4 +11,8 @@ class Owner
   def say_species
     return "I am a human."
   end
+  
+  def all
+    @@all
+  end
 end
