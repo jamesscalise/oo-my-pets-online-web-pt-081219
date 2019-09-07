@@ -50,7 +50,7 @@ class Owner
     cat.owner=nil
     }
     @cats = []
-    @dogs.each{|cat| 
+    @dogs.each{|dog| 
     dog.mood="nervous"
     dog.owner=nil
     }
