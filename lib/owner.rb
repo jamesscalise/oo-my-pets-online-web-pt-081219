@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :name, :species
+  attr_reader :name, :species, :cats, :dogs
   @@all = []
   
   def initialize(name)
@@ -24,10 +24,6 @@ class Owner
     @@all.clear
   end
   
-  def cats
-  end
-
-  def dogs
-  end
+  
     
 end
