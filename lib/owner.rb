@@ -24,7 +24,13 @@ class Owner
     @@all.clear
   end
   
-  def buy_cat
+  def buy_cat(cat)
+    @cats << cat
+  end
+  
+  def buy_dog(dog)
+    @dogs << dog
+  end
   
     
 end
