@@ -12,7 +12,7 @@ class Owner
     return "I am a human."
   end
   
-  def all
+  def self.all
     @@all
   end
 end
